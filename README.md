@@ -9,7 +9,7 @@ pip install -r requirements.txt
 
 ## Running
 ```
-python3 antennaController.py
+python3 antennaRunner.py
 ```
 
 ## Physical connections
