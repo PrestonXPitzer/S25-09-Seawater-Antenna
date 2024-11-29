@@ -137,7 +137,7 @@ class AntennaRunner:
             elif self.state == "STATUS":
                 self.status()
             #if 15 seconds have elapsed then trigger the ATU if it's not already triggered
-            if self.progress >= 0.75 and self.ATI.value == 0:
+            if self.progress >= 0.75 and self.ATU.value == 0:
                 self.ATU.on()
 
 
